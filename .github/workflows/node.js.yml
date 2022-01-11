@@ -5,16 +5,17 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, develop ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, develop ]
 
 jobs:
-  build_on_windows:
-    runs-on: windows-latest
+  build:
     strategy:
       matrix:
         node-version: [14.x, 16.x, 17.x]
+        os: [ubuntu-20.04, windows-2019]
+    runs-on: ${{ matrix.os }}
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
@@ -25,19 +26,3 @@ jobs:
     - run: npm ci
     - run: npm run pretest
     - run: npm run test    
-  
-  build:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [14.x, 16.x, 17.x]
-    steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm ci
-    - run: npm run pretest
-    - run: npm run test
