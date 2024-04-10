@@ -6,7 +6,7 @@
 [![Container Build](https://github.com/AndreasHeine/SampleServer-node-opcua/actions/workflows/container_build.yml/badge.svg)](https://github.com/AndreasHeine/SampleServer-node-opcua/actions/workflows/container_build.yml)  
 
 OPC UA Sample Server based on [node-opcua](https://github.com/node-opcua/node-opcua)  
-the book from the author of node-opcua: [node-opcuabyexample](https://leanpub.com/node-opcuabyexample)  
+the official book node-opcua: [node-opcua by example](https://leanpub.com/node-opcuabyexample-edition2024) by [Sterfive](https://www.sterfive.com)  
 API Docs: [2.32.0](https://node-opcua.github.io/api_doc/2.32.0/index.html)  
   
 ## Usage
