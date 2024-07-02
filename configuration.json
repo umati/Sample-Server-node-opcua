@@ -38,6 +38,10 @@
         "./nodesets/Opc.Ua.Robotics.NodeSet2.xml",
         "./nodesets/Opc.Ua.Woodworking.NodeSet2.xml",
         "./nodesets/Opc.Ua.LaserSystems.NodeSet2.xml",
+        "./nodesets/Opc.Ua.IRDI.NodeSet2.xml",
+        "./nodesets/Opc.Ua.PADIM.NodeSet2.xml",
+        "./nodesets/Opc.Ua.Machinery.ProcessValues.NodeSet2.xml",
+        "./nodesets/Opc.Ua.MetalForming.NodeSet2.xml",
         "./models/ShowCaseMachineTool.xml",
         "./models/Machinetool-Example.xml",
         "./models/opcroboticstestserver.xml",
@@ -51,14 +55,11 @@
         "./models/umati_opc40084-9_sample_instance.xml",
         "./models/umati_opc40084-11_sample_instance.xml",
         "./models/basyskom_woodworking_instance.xml",
-        "./nodesets/Opc.Ua.IRDI.NodeSet2.xml",
-        "./nodesets/Opc.Ua.PADIM.NodeSet2.xml",
-        "./nodesets/opc.ua.machinery.processvalues.xml",
         "./models/paefs.xml",
         "./models/umati_brownfieldMT.xml",
         "./models/LaserSystem-Example.xml",
-        "./models/Opc.Ua.Ugg.Intances.Umati.NodeSet2.xml"
-        
+        "./models/Opc.Ua.Ugg.Intances.Umati.NodeSet2.xml",
+        "./models/metalforming-example.xml"
     ],
     "serverCapabilities": {
         "serverProfileArray": [
