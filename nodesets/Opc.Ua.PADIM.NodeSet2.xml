@@ -3484,6 +3484,43 @@
       <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
     </References>
+    <Value>
+      <uax:ListOfNodeId xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd">
+                <uax:NodeId>
+                    <uax:Identifier>ns=2;s=0112/2///61987#ABL215#001</uax:Identifier>
+                </uax:NodeId>
+                <uax:NodeId>
+                    <uax:Identifier>ns=2;s=0112/2///61987#ABL216#001</uax:Identifier>
+                </uax:NodeId>
+                <uax:NodeId>
+                    <uax:Identifier>ns=2;s=0112/2///61987#ABN836#001</uax:Identifier>
+                </uax:NodeId>
+                <uax:NodeId>
+                    <uax:Identifier>ns=2;s=0112/2///61987#ABM627#001</uax:Identifier>
+                </uax:NodeId>
+                <uax:NodeId>
+                    <uax:Identifier>ns=2;s=0112/2///61987#ABM625#001</uax:Identifier>
+                </uax:NodeId>
+                <uax:NodeId>
+                    <uax:Identifier>ns=2;s=0112/2///61987#ABN839#001</uax:Identifier>
+                </uax:NodeId>
+                <uax:NodeId>
+                    <uax:Identifier>ns=2;s=0112/2///61987#ABN840#001</uax:Identifier>
+                </uax:NodeId>
+                <uax:NodeId>
+                    <uax:Identifier>ns=2;s=0112/2///61987#ABN841#001</uax:Identifier>
+                </uax:NodeId>
+                <uax:NodeId>
+                    <uax:Identifier>ns=2;s=0112/2///61987#ABL213#001</uax:Identifier>
+                </uax:NodeId>
+                <uax:NodeId>
+                    <uax:Identifier>ns=2;s=0112/2///61987#ABL214#001</uax:Identifier>
+                </uax:NodeId>
+                <uax:NodeId>
+                    <uax:Identifier>ns=2;s=0112/2///61987#ABI407#004</uax:Identifier>
+                </uax:NodeId>
+            </uax:ListOfNodeId>
+    </Value>
   </UAVariable>
   <UAVariable NodeId="ns=3;i=1251" BrowseName="EnumValues" ParentNodeId="ns=3;i=1246" DataType="i=7594" ValueRank="1" ArrayDimensions="11">
     <DisplayName>EnumValues</DisplayName>
