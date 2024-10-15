@@ -53,17 +53,13 @@
         "./models/basyskom_woodworking_instance.xml",
         "./nodesets/Opc.Ua.IRDI.NodeSet2.xml",
         "./nodesets/Opc.Ua.PADIM.NodeSet2.xml",
-        "./nodesets/opc.ua.machinery.processvalues.xml",
+        "./nodesets/Opc.Ua.Machinery.ProcessValues.NodeSet2.xml",
         "./models/paefs.xml",
         "./models/umati_brownfieldMT.xml",
         "./models/LaserSystem-Example.xml",
         "./models/Opc.Ua.Ugg.Intances.Umati.NodeSet2.xml",
-        "./nodesets/Opc.Ua.IRDI.NodeSet2.xml",
-        "./nodesets/Opc.Ua.PADIM.NodeSet2.xml",
-        "./nodesets/Opc.Ua.Machinery.ProcessValues.NodeSet2.xml",
         "./nodesets/Opc.Ua.MetalForming.NodeSet2.xml",
         "./models/MetalForming_Example.xml"
-        
     ],
     "serverCapabilities": {
         "serverProfileArray": [
