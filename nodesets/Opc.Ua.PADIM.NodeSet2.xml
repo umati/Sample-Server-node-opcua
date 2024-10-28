@@ -7793,8 +7793,23 @@
       <Reference ReferenceType="HasModellingRule">i=78</Reference>
       <Reference ReferenceType="HasDictionaryEntry">ns=2;s=0112/2///61987#ABN634#001</Reference>
       <Reference ReferenceType="HasTypeDefinition">ns=3;i=1274</Reference>
-      <Reference ReferenceType="HasProperty">ns=3;i=1191</Reference>
-      <Reference ReferenceType="HasProperty">ns=3;i=1190</Reference>
+      <Reference ReferenceType="HasProperty">ns=3;i=1591</Reference>
+      <Reference ReferenceType="HasProperty">ns=3;i=1590</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=3;i=1590" BrowseName="EngineeringUnits" ParentNodeId="ns=3;i=1328" DataType="i=887">
+    <DisplayName>Unit</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasDictionaryEntry">ns=2;s=0112/2///61987#ABA968#002</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=3;i=1591" BrowseName="EURange" ParentNodeId="ns=3;i=1328" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
     </References>
   </UAVariable>
   <UAObjectType NodeId="ns=3;i=1082" BrowseName="3:ProcessAnalyserType">
