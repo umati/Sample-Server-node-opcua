@@ -7,7 +7,7 @@
     </NamespaceUris>
     <Models>
         <Model ModelUri="http://opcfoundation.org/UA/Machinery/Energy/" Version="1.00" PublicationDate="2025-06-01T00:00:00Z">
-            <RequiredModel ModelUri="http://opcfoundation.org/UA/" Version="1.05.04" PublicationDate="2024-12-01T00:00:00Z"/>
+            <RequiredModel ModelUri="http://opcfoundation.org/UA/" Version="1.05.03" PublicationDate="2023-12-15T00:00:00Z" />
             <RequiredModel ModelUri="http://opcfoundation.org/UA/DI/" Version="1.04.0" PublicationDate="2022-11-03T00:00:00Z"/>
             <RequiredModel ModelUri="http://opcfoundation.org/UA/IA/" Version="1.01.2" PublicationDate="2024-02-28T00:00:00Z"/>
             <RequiredModel ModelUri="http://opcfoundation.org/UA/ECM/" Version="1.0.0" PublicationDate="2025-02-01T00:00:00Z"/>
