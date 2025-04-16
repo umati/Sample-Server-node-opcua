@@ -39,6 +39,7 @@ import { createLaserSystemLogic } from "./machines/LaserSystem/LaserSystem";
 import { createUGGgrindingMachineLogic } from "./machines/machinetool/UGGgrindingmachine";
 import { createMetalFormingMTLogic } from "./machines/MetalForming/MetalFormingMachine";
 import { createJobContolLogic } from "./machines/MyControledMachine/jobcontrol";
+import { createMachineToolEnergyLogic } from "./machines/machinetool/machinetool-energy";
 
 export const createAddressSpace = async (
   server: OPCUAServer,
@@ -67,6 +68,7 @@ export const createAddressSpace = async (
         createLaserSystemLogic(addressSpace),
         createUGGgrindingMachineLogic(addressSpace),
         createMetalFormingMTLogic(addressSpace),
+        createMachineToolEnergyLogic(addressSpace)
       ])
         .then(() => {
           green(" Creating AddressSpace done! ");
