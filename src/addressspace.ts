@@ -68,7 +68,7 @@ export const createAddressSpace = async (
         createLaserSystemLogic(addressSpace),
         createUGGgrindingMachineLogic(addressSpace),
         createMetalFormingMTLogic(addressSpace),
-        createMachineToolEnergyLogic(addressSpace)
+        createMachineToolEnergyLogic(addressSpace),
       ])
         .then(() => {
           green(" Creating AddressSpace done! ");

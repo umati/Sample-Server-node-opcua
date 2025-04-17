@@ -42,9 +42,7 @@ export const createMachineToolEnergyLogic = async (
   // changes CurrentState each 10000 msec from Running to Interrupted
   setInterval(() => {
     const state = addressSpace?.findNode(`ns=${idx};i=6144`) as UAVariable;
-    const stateId = addressSpace?.findNode(
-      `ns=${idx};i=6145`,
-    ) as UAVariable;
+    const stateId = addressSpace?.findNode(`ns=${idx};i=6145`) as UAVariable;
     const stateNumber = addressSpace?.findNode(
       `ns=${idx};i=6146`,
     ) as UAVariable;
@@ -91,36 +89,38 @@ export const createMachineToolEnergyLogic = async (
     let p = p1 + p2 + p3;
     let e = p * 0.000278; // Wh
     const newV = {
-        L1: v1,
-        L2: v2,
-        L3: v3
-      };
+      L1: v1,
+      L2: v2,
+      L3: v3,
+    };
     const newC = {
-        L1: c1,
-        L2: c2,
-        L3: c3
-      };
+      L1: c1,
+      L2: c2,
+      L3: c3,
+    };
     const newP = {
-        L1: p1,
-        L2: p2,
-        L3: p3
-      };
+      L1: p1,
+      L2: p2,
+      L3: p3,
+    };
     const voltage = addressSpace?.findNode(`ns=${idx};i=6196`) as UAVariable;
     voltage?.setValueFromSource({
       value: newV,
-      dataType: DataType.ExtensionObject
+      dataType: DataType.ExtensionObject,
     });
     const current = addressSpace?.findNode(`ns=${idx};i=6212`) as UAVariable;
     current?.setValueFromSource({
       value: newC,
-      dataType: DataType.ExtensionObject
+      dataType: DataType.ExtensionObject,
     });
     const power = addressSpace?.findNode(`ns=${idx};i=6147`) as UAVariable;
     power?.setValueFromSource({
       value: newP,
-      dataType: DataType.ExtensionObject
+      dataType: DataType.ExtensionObject,
     });
-    const energyImport = addressSpace?.findNode(`ns=${idx};i=6164`) as UAVariable;
+    const energyImport = addressSpace?.findNode(
+      `ns=${idx};i=6164`,
+    ) as UAVariable;
     let oldE = energyImport.readValue().value.value;
     energyImport?.setValueFromSource({
       value: oldE + e,
@@ -148,7 +148,9 @@ export const createMachineToolEnergyLogic = async (
 
   // Inctrease PowerOnDuration every 1 min.
   setInterval(() => {
-    const powerOnDuration = addressSpace?.findNode(`ns=${idx};i=6333`) as UAVariable;
+    const powerOnDuration = addressSpace?.findNode(
+      `ns=${idx};i=6333`,
+    ) as UAVariable;
     let oldT = powerOnDuration.readValue().value.value;
     powerOnDuration?.setValueFromSource({
       value: oldT + 60000,
@@ -157,7 +159,6 @@ export const createMachineToolEnergyLogic = async (
   }, 60000);
 
   function getRandomInRange(min: number, max: number): number {
-    return (Math.random() * (max - min) + min);
+    return Math.random() * (max - min) + min;
   }
-
 };
