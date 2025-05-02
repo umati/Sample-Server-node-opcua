@@ -1,3 +1,10 @@
 [submodule "UA-Nodeset"]
 	path = UA-Nodeset
 	url = https://github.com/OPCFoundation/UA-Nodeset.git
+
+#[submodule "UA-Nodeset-Members"]
+#	path = UA-Nodeset-Members
+#	url = https://github.com/OPCF-Members/UA-NodeSet.git
+[submodule "UA-Nodeset-Members"]
+	path = UA-Nodeset-Members
+	url = https://github.com/OPCF-Members/UA-NodeSet.git
