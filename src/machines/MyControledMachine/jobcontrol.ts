@@ -200,7 +200,7 @@ export const createJobContolLogic = async (
       isAbstract: false,
     });
 
-  ISA95JobOrderStatusEventType.addReference({
+  MyControledMachineJobOrderResultStatusEventType.addReference({
     referenceType: `GeneratesEvent`,
     nodeId: JobOrderResults.nodeId,
     isForward: false,
