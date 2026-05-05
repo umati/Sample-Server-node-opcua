@@ -198,7 +198,7 @@
             <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=5005</Reference>
         </References>
         <Value>
-            <uax:String>HMI 27 F58/Virtual 1 1/N 49.871215 E 8.654204</uax:String>
+            <uax:String>GRIND 9 B20/Virtual 1 1/N 49.871215 E 8.654204</uax:String>
         </Value>
     </UAVariable>
     <UAVariable NodeId="ns=1;i=6001" ParentNodeId="ns=1;i=5005" DataType="LocalizedText" BrowseName="4:Manufacturer">

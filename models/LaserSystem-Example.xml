@@ -73,7 +73,7 @@
             <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
         </References>
         <Value>
-            <uax:String>HMI 27 F58/AMB 9 C45/Virtual 1 1</uax:String>
+            <uax:String>GRIND 9 B20/AMB 9 C45/Virtual 1 1</uax:String>
         </Value>
     </UAVariable>
     <UAVariable DataType="LocalizedText" NodeId="ns=6;i=6001" BrowseName="1:Manufacturer" ParentNodeId="ns=6;i=5004">
