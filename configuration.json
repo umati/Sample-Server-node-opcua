@@ -63,7 +63,7 @@
     "./models/paefs.xml",
     "./models/umati_brownfieldMT.xml",
     "./models/LaserSystem-Example.xml",
-    "./models/Opc.Ua.Ugg.Intances.Umati.NodeSet2.xml",
+    "./models/Opc.Ua.Ugg.Instances.Umati.NodeSet2.xml",
     "./models/MetalForming_Example.xml",
     "./models/MachineTool-Energy.xml"
   ],
